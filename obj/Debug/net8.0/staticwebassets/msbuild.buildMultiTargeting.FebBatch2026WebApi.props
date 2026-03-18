@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\FebBatch2026WebApi.props" />
+</Project>

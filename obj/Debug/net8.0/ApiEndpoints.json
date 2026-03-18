@@ -1,0 +1,65 @@
+[
+  {
+    "ContainingType": "FebBatch2026WebApi.Controllers.EmployeeController",
+    "Method": "AddEmp",
+    "RelativePath": "api/Employee/AddE",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "e",
+        "Type": "FebBatch2026WebApi.DTO.EmpDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FebBatch2026WebApi.Controllers.EmployeeController",
+    "Method": "FetchEmp",
+    "RelativePath": "api/Employee/FetchE",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FebBatch2026WebApi.Controllers.ManagerController",
+    "Method": "AddManager",
+    "RelativePath": "api/Manager/AddM",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mdto",
+        "Type": "FebBatch2026WebApi.DTO.ManagerDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FebBatch2026WebApi.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[FebBatch2026WebApi.WeatherForecast, FebBatch2026WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
